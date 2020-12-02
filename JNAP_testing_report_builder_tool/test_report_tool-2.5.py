@@ -1077,10 +1077,10 @@ class sql_connection():
             driver = '{ODBC Driver 17 for SQL Server}'
         else:
             driver = '/usr/local/lib/libmsodbcsql.17.dylib'
-        server = 'tcp:coxoil.database.windows.net' 
+        server = '' 
         database = 'Testing' 
         username = 'jnapolitano' 
-        password = 'Kjiox35,625xp21' 
+        password = '' 
         #driver='/usr/local/lib/libmsodbcsql.17.dylib'
         self.connection = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
         self.cursor = self.connection.cursor()

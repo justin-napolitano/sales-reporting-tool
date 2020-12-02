@@ -1160,13 +1160,13 @@ class sql_connection():
             driver = '{ODBC Driver 17 for SQL Server}'
         else:
             driver = '/usr/local/lib/libmsodbcsql.17.dylib'
-        server = 'tcp:coxoil.database.windows.net' 
+        server = '' 
         database = 'Testing' 
-        username = 'jnapolitano' 
-        password = 'Kjiox35,625xp21' 
+        username = '' 
+        password = '' 
 
-        database = 'PDI_Warehouse_1592_01'
-        server = 'pdi-prod-db' 
+        database = ''
+        server = '' 
         self.connection = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server}; \
                             SERVER=' + server + '; \
                             DATABASE=' + database +'; \
