@@ -1,31 +1,38 @@
 ---
 slug: github-sales-reporting-tool
-title: 'sales-reporting-tool: Python and SQL Server Automated Sales Reporting'
+title: 'Sales Reporting Tool: Implementation and Technical Overview'
 repo: justin-napolitano/sales-reporting-tool
 githubUrl: https://github.com/justin-napolitano/sales-reporting-tool
 generatedAt: '2025-11-23T09:34:34.657186Z'
 source: github-auto
 summary: >-
-  Overview of a Python tool using pandas and pyodbc to automate customizable sales report generation
-  from SQL Server transactional data.
+  Explore the architecture and implementation details of a Python-based sales
+  reporting tool for SQL Server databases.
 tags:
   - python
   - sql-server
   - sales-reporting
   - pandas
   - pyodbc
-seoPrimaryKeyword: sales reporting tool
+  - odbc
+  - logging
+seoPrimaryKeyword: sales reporting tool implementation
 seoSecondaryKeywords:
-  - python sales reporting
-  - sql-server reporting
-  - pandas data manipulation
+  - automated sales reporting
+  - SQL data extraction
+  - Python reporting tool
+  - data manipulation with pandas
+  - ODBC SQL Server connection
 seoOptimized: true
 topicFamily: datascience
 topicFamilyConfidence: 0.9
 topicFamilyNotes: >-
-  The post details a Python tool leveraging pandas and pyodbc for querying, transforming, and
-  analyzing sales data from SQL Server, fitting well into the 'Datascience' family which focuses on
-  data analysis projects, notebooks, ETL pipelines, and data workflows.
+  The post details a Python tool leveraging pandas and pyodbc for querying,
+  transforming, and analyzing sales data from SQL Server, fitting well into the
+  'Datascience' family which focuses on data analysis projects, notebooks, ETL
+  pipelines, and data workflows.
+kind: project
+id: github-sales-reporting-tool
 ---
 
 # sales-reporting-tool: Technical Overview and Implementation Notes
