@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/sales-reporting-tool
 generatedAt: '2025-11-24T21:36:15.115Z'
 source: github-auto
 summary: >-
-  A Python tool for generating customizable sales reports from SQL databases
-  with flexible grouping and filtering options.
+  A Python tool for generating customizable sales reports from SQL databases with flexible grouping
+  and filtering options.
 tags:
   - python
   - pandas
@@ -21,8 +21,8 @@ seoSecondaryKeywords:
   - data processing tool
   - sales data analysis
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: datascience
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -93,4 +93,5 @@ Adjust SQL connection parameters and input files as needed.
 - Expand support for other report types beyond sales.
 - Improve error handling and logging detail.
 - Optimize SQL queries and data processing for performance.
+
 
